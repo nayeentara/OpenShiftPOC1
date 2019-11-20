@@ -3,7 +3,7 @@ from Step_1 import config, set_config
 
 
 
-##environment = 'Dev'
+environment = 'Dev'
 
 def Main(environment):
     parameter_dict = set_config(environment, config)
